@@ -8,8 +8,11 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="./recursos/favicon2.png">
 </head>
-<body>
-    <header>  
+<body >
+    <header class="fondo"> 
+        <div class="title"> 
+            <h2 >Tienda Pao</h2>
+        </div> 
         <nav>
             <ul >
                 <li class="menu"><a href="./index.html">Menu</a></li>
@@ -19,38 +22,35 @@
                 <li class="menu"><a href="./about.html">sobre el producto</a></li>
             </ul>
         </nav>
-        <img class="logo" src="./recursos/logo.png" alt="">
-        <div class="title"> 
-            <h2 >Tienda Pao</h2>
-        </div>
+        
+        
     </header>
     <main >
-        <section class="container--flex">
-            <h3>contactanos</h3>
-            <div class="contenedor">
-                <form action="" class="formulario">                 
-                <label for="nombre"> Nombre </label>
-                    <input class="formulario" type="text" name="nombre">
-                    <label class="formulario" for="email"> correo electronico</label>
-                    <input class="formulario" type="email" name="correo electronico">
-                    <label class="formulario" for="numero"> numero de telefono</label>
-                    <input class="formulario" type="number" name="numero">
-                <label class="formulario" for="preguntas">escribe tu duda aqui</label>
-                <input class="formulario" type="text">
-        
-
-                <input class="formulario" type="checkbox" name="aceptar" value="verdadero">
-                <span>¿desea recibir informacion?</span>
+        <section class="formulario">
+            
+            <div class="formulario">
+                
+                        <h3 class="h3" ">contactanos</h3>
+                    <label class="f3" for="nombre"> NOMBRE </label>
+                    <input class="f2" type="text" name="nombre">
+                    <label class="f3" for="email"> CORREO ELECTRONICO </label>
+                    <input class="f2" type="email" name="correo electronico">
+                    <label class="f3" for="numero"> NUMERO DE TELEFONO</label>
+                    <input class="f2" type="number" name="numero">
+                    <label class="f3" for="preguntas">escribe tu duda aqui</label>
+                    <input class="f2" type="text" name="texto">
 
 
-                <input class="formulario" class="btn" type="submit" value="enviar info">
-                <input class="formulario" class="btn" type="reset" value="borrar info">
+                <input class="btn" type="submit" value="enviar info">
+                <input  class="btn" type="reset" value="borrar info">
 
-            </form>
+            
         </div>
     </section>
 </main>
-<footer> Hecho con <3 por facu</footer>  
+    <div class="pie">
+        <footer> Hecho con <3 por facu</footer>
+    </div> 
 </body>
 
 </html>
